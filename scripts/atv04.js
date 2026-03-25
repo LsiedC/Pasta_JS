@@ -1,9 +1,9 @@
-function ordenacao(){
-    num = 0;
+function gerar_numeros(){
+    vetorDeNumeros = [];
+
     for (i = 0; i <= 3; i++){
-        let num = parseFloat(prompt("Me informe o " + i + "° valor"));
-        
-        numeros[3]
-        
+        vetorDeNumeros.push (Number ( prompt ("Me informe o " + (i+1) + "° valor")));
+        vetorDeNumeros.sort ((a,b) => b - a);
     }
+    alert("Seu vetor ordenado é: " + vetorDeNumeros);
 }
