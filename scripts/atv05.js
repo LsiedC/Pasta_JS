@@ -6,6 +6,6 @@ function impar_par() {
             alert("Agora é ímpar: " + (num+1));
         } else {
             alert("Seu numero é ímpar.");
-            alert("Agora é par: " + num +1);
+            alert("Agora é par: " + (num+1));
     }
 }
